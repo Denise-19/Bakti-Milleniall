@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container .title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.115em;
+  color: #184d47;
+  text-shadow: 4px 4px 4px #fad586;
+}
+
+/* .posisi-section .card-image {
+  width: 430px;
+  height: 450px;
+} */
+
+/* box-search */
+.box-search {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.judul {
+  font-family: acme;
+}
+
+.box-search .search-text {
+  width: 497px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-text input[type="text"] {
+  width: 90%;
+  border: none;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(rgba(214, 239, 199, 0.5),
+      rgba(214, 239, 199, 0.5));
+}
+
+.search-text input[type="text"]::placeholder {
+  opacity: 0.6;
+}
+
+.search-text .fas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  background-color: #d6efc7;
+  height: 68%;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.search-text .fas:hover {
+  font-size: 24px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .row .posisi-section:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row .posisi-section:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.row .posisi-section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 728px) and (min-width: 998px) {
+  .posisi-section .card-image {
+    width: 85vw;
+  }
+
+  .posisi-section .text-justify {
+    padding-top: 20px;
+  }
+
+  .box-search {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .posisi-section .card-image {
+    width: 85vw;
+  }
+
+  .posisi-section .text-justify {
+    margin-top: 20px;
+  }
+
+  .box-search {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+}

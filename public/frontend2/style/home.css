@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.judul {
+  font-family: acme;
+}
+
+/* text about*/
+.container .row p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.container .row #button-about {
+  position: relative;
+  top: 0.5rem;
+  width: 153px;
+  height: 30.13px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 81px;
+  /* identical to box height */
+
+  letter-spacing: 0.075em;
+
+  color: #3f3f3f;
+
+  text-shadow: 4px 4px 8px #dcdcdc;
+}
+
+.row {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+/* Program */
+/* Height Card */
+.MultiCarousel-inner .item {
+  height: 600px;
+  width: 400px;
+}
+
+.MultiCarousel-inner .item .pad15 {
+  height: 100%;
+}
+
+.container center {
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 61px;
+  color: #000000;
+}
+
+.MultiCarousel #button-program-left {
+  background: #96bb7c;
+  border: 1px solid #96bb7c;
+  border-radius: 50% 0 0 50%;
+}
+
+.MultiCarousel #button-program-right {
+  background: #96bb7c;
+  border: 1px solid #96bb7c;
+  border-radius: 0 50% 50% 0;
+}
+
+.MultiCarousel .button-program .fas {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .pad15 .lead {
+  font-family: Poppins;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  border-radius: 2px;
+  height: 31px;
+  background: #fad586;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.item .pad15 {
+  position: relative;
+}
+
+.item .pad15 img {
+  position: relative;
+  width: 148px;
+  height: 138px;
+  margin: 0.5rem 0 2rem 0;
+  box-shadow: 0 0 5px gray;
+}
+
+.item .pad15 .read-more-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.item .pad15 .read-more-box .read-more {
+  position: relative;
+  margin: 1.5rem auto;
+  width: 135px;
+  height: 33px;
+  background: #184d47;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.item .pad15 .read-more-box .read-more p {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.45rem auto;
+}
+
+.read-more-box .read-more .fas {
+  display: none;
+  transition: margin-right 5s ease-in-out;
+}
+
+.read-more-box .read-more:hover .fas {
+  margin-right: 0.3rem;
+  display: block;
+}
+
+/* Scroll-bar */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #96bb7c;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #96bb7c;
+  border-radius: 10px;
+  border: 2px solid #4da011;
+  box-shadow: 0 0 10px 0 #96bb7c;
+}
+
+.button-about-imc {
+  position: relative;
+  width: 85%;
+  height: 50px;
+}
+
+.button-about-imc a {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.about-two {
+  padding-top: 10px;
+}
+
+#syarat-box {
+  /* width: 800px;
+  height: 320px; */
+  position: relative;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: -20px;
+  height: 50vh;
+  width: 50%;
+}
+
+#syarat-text {
+  position: relative;
+  justify-content: right;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.button-about-selengkapnya {
+  position: relative;
+  width: 250px;
+  height: 65px;
+  background: #ebb541;
+  border: 2px solid #184d47;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+a#selengkapnya {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  width: 201px;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.button-about-info a {
+  position: relative;
+  margin: 2.5rem auto;
+  padding: 1 1 1 1rem;
+  width: 135px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.jalur-text {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 0.45rem auto;
+}
+
+.jalur-container {
+  position: relative;
+}
+
+.jalur-box::before {
+  position: absolute;
+  top: -1.8rem;
+  left: -5rem;
+  content: "\f0d9";
+  display: block;
+  width: 109px;
+  height: 45px;
+  font-size: 5rem;
+  color: #c4c4c4;
+  font-family: "Font Awesome 5 Free";
+  font-weight: bolder;
+}
+
+#orange-satu {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: -50px;
+}
+
+#orange-dua {
+  padding-right: 50px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 998px) {
+  .container-about {
+    height: 100vh !important;
+  }
+
+  /* .MultiCarousel .MultiCarousel-inner .item {
+    width: 400px;
+  } */
+  .box-about {
+    display: flex;
+  }
+}

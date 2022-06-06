@@ -1,0 +1,53 @@
+/* Large Desktop -- atas */
+@media only screen and (max-width: 1024px) {}
+
+/* Latop */
+@media only screen and (max-width: 998px) {
+
+  /* denise persyaratan */
+  .lokasi img {
+    width: 50%;
+    height: 50vh;
+  }
+
+
+  /* Maps kasi width:100% */
+  /* height: 50vh;
+  width: 50%; */
+}
+
+/* Tablet/Mobile */
+@media only screen and (max-width: 728px) {
+
+  /* Catatan Fully Funded */
+  /* width: 85vw; */
+  .container {
+    background-color: blue;
+  }
+
+  .jalur-container {
+    width: 85vh;
+  }
+
+  .box-about img {
+    width: 500px !important;
+  }
+
+  .button-about-imc {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .syarat-box {
+    position: relative;
+  }
+
+
+
+}
+
+/* mobile kecil */
+@media only screen and (max-width: 480px) {}
+
+/* lebih kecil lagi */
+@media only screen and (max-width: 280px) {}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.115em;
+
+  color: #184d47;
+
+  text-shadow: 4px 4px 4px #fad586;
+}
+
+.judul {
+  font-family: acme;
+}
+
+.judul2 {
+  font-family: acme;
+  margin-left: 200px;
+  padding-top: 20px;
+}
+
+.judul3 {
+  font-family: acme;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.box {
+  width: 900px;
+  background: #e3f7d7;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* responsive */
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 728px) {
+  /* Catatan Fully Funded */
+  /* width: 85vw; */
+  .box {
+    width: 85vw;
+  }
+}
+@media (max-width: 992px) {
+  .judul2 {
+    margin: auto;
+  }
+  .box {
+    width: 85vw;
+  }
+  .container-fluid .row {
+    margin: auto;
+    display: flex;
+    flex: column;
+  }
+  .container-fluid .row .judul {
+    margin: auto;
+    width: 50%;
+  }
+}

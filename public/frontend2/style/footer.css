@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+#container {
+  background-color: #96bb7c;
+  border-radius: 50px 50px 0px 0px;
+  height: 250px;
+  z-index: 2;
+}
+
+#copy {
+  height: 30px;
+  position: relative;
+  background-color: #184d47;
+}
+
+.card-title {
+  background-color: #fad586;
+  width: 200px;
+  margin-top: auto;
+}
+
+.text {
+  width: 100px;
+}
+
+.section {
+  width: 200px;
+  height: 100px;
+  margin-top: 50px;
+}
+.card-follow .contact {
+  display: flex;
+}
+.card-follow .contact img {
+  margin: 0 0.3rem 0 0;
+}
+
+/* contact us */
+.box-contact .box-contact-us {
+  margin: 1rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  font-size: 14px;
+}
+.box-contact-us img {
+  margin-right: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width: 998px) {
+  .card-follow {
+    margin: 0;
+  }
+}
+
+/* Tablet/Mobile */
+@media only screen and (max-width: 728px) {
+  .card-follow {
+    margin-left: 52%;
+  }
+  .card-logo {
+    margin: auto;
+    position: relative;
+    top: 3rem;
+    display: flex;
+  }
+  .card-logo .logo {
+    height: 150px;
+    margin: auto;
+  }
+}
+
+/* mobile kecil */
+@media only screen and (max-width: 480px) {
+  .card-logo {
+    top: 0;
+  }
+  .card-logo .logo {
+    height: auto;
+  }
+  .box-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-follow {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* lebih kecil lagi */
+@media only screen and (max-width: 280px) {
+}
